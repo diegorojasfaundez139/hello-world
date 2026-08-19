@@ -1,0 +1,5 @@
+*.sh text eol=lf
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.md diff=markdown
+docs/* export-ignore
+images/*.{png,jpg} filter=lfs diff=lfs merge=lfs -text
